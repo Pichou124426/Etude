@@ -1,0 +1,144 @@
+Bonjour, Vous retrouverez ici la totalité des commandes effectués pour eviter la surcharge de screen ;) 
+Le 26 février, je viens de prendre compte que mon fichier a des commandes bizarres qui n'étais pas presente lors du premier push, donc j'ai essaye d'enlever les trucs bizarres, si besoin n'hésitez pas à m'envoyer un message...
+1- FileSystem 
+
+mkdir assetsmicro rules.sh
+ns@madrid:~/Ecole/Hexagone/Linux/B1/Examen/billard$ chmod +x rules.sh
+cd assets
+touch img_{1.sudo -u Toto bash -c 'echo "#!/usr/bin/bash" > ./shared/owned_by_toto'
+.10}.png
+echo "hello,World" > du_texte.txt
+for hint in {1..10}; do mv img_10.png img_10.jpeg; done
+~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp
+Les formats servent : 
+-png  Format d'image qui supporte la transparence ( bien pour le graphisme)
+-txt Format de texte brute qui peut  contenir des données textuelles 
+-jpeg Formmicro rules.sh
+ns@madrid:~/Ecole/Hexagone/Linux/B1/Examen/billard$ chmod +x rules.shat d'image compréssé ( bien pour les photos)
+
+echo '#!/usr/bin/bash' > script
+echo "echo \"Hello, world\"" >> script 
+chmod +x script
+
+La ligne indique au sytéme d'e~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swpxploitation quel interpreteur utiliser pour executer le script. 
+Lorsque qu'on lance le script à l'aide de "./toto" on utilise l'interpreteur qui est spécifié à l'interieur de toto, alors que lorsque qu'on utilise "bash script" il ignore cet interpreteur pour utilier bash.
+
+
+2- Commandes ~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp
+
+mkdir commandes ~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp
+cd commandes ~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp~~/Ecole/He~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp~~/Ecole/Hexa~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swpgone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp~~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh 
+. 09:26 .commandes.swp
+for number in {1..100};do echo Ligne 100>>too_long; done
+head -n 5 too_long
+tail -n 7 too_long
+sort -t ' ' -k2 -nr too_long | head -n 3
+sed -n '42p' too_long gone/Linux/B1/gone/Linux/B1/gone/Linux/B1/f Life, the Universe and Everything/' too_long
+
+
+3- Users 
+
+who
+# ns       tty2         2025-02-14 09:00 (tty2)
+
+sudo useradd Toto
+groups Totogone/Linux/B1/
+# Toto : Toto
+# Toto : Toto
+
+sudo groupadd shared
+ns@madrid:~/Ecole/Hexagone/Linux/B1/Examen$ whoami
+ns
+ns@madrid:~/Ecole/Hexagone/Linux/B1/Examen$ sudo usermod -aG shared ns 
+ns@madrid:~/Ecole/Hexago
+# Toto : Totone/Linux/B1/ne/Linux/B1/Examen$ sudo usermod -aG shared Toto 
+
+La commande sudo permet d'executer des commandes avec des priviléges 'root'
+Non, uniquement les utilisateur membres du grp sudo 
+Il faut inserer "Toto ALL=(ALL) NOPASSWD: /usr/bin/apt install" dans sudoers. 
+sudo usermod -aG sudo Toto
+
+Il ne faut pas tout faire en root puisque cela peut etre dangereux car un erreur pourrait affecter le systeme entier. 
+
+
+4- Permission
+mkdir shared
+sudo chown Toto:Toto sne/Linux/B1/ne/Linux/B1/hared/
+ns@madrid:~/Ecole/Hexagone/Linux/B1/Examen$ ls -al
+# drwxr-xr-x 2 Toto Toto 4096 14 févr. 10:31 shared
+
+sudo -u Toto bash -c 'echo "#!/usr/bin/bash" > ./shared/owned_by_toto'
+sudo -u Toto bash -c 'echo echo toto >> ./shared/owned_by_toto'
+sudo chmod +x ./shared/owned_by_toto
+
+La commande  "sudo chmod g+x owned_by_toto" ajoute le droit d'éxecution pour le groupe propriétaire du fichier. 
+La commande "sudo chown root:root owned_by_toto" change le proprietaire et le groupe proprietaire du fichier owned... pour root. 
+
+5- Envrionnement 
+mkdir billard 
+cd billard 
+micro rules.sh (ecriture du script)
+chmod +x rules.sh 
+export RULES="une valeur "
+~/Ecole/Hexagone/Linux/B1/Examen/billard/rules.sh  (pour test)
+
+6-Systemctl
+
+La commande pour prendre en compte les changement de config d'un service est : sudo systemctl daemon-reload.
+Pour démarrer et stopper un service il faut utiliser : sudo systemctl star/stop nom_du_service
+ L'option restart arrete et rédemarre un service,à l'inverse de start qui lorsqu'un service est déja en marche aura aucun impact. 
+
+
+7- Cron 
+
+La commande est crontab -l poour lister les taches cron. 
+sudo crontab -u Toto -e
+ Dans l'éditeur, 30 1 ** 3 ~/Ecole/Hexagone/Linux/B1/Examen/shared/owned_by_toto
+croon.weekly = Contient les sripts execute uen fois par semaine. cron.hourly = Contient des scripts qui s'executent toutes les heures. crron.monthly = tous les mois
+
+
+
+8- Logs 
+
+Limiter la taille des fichiers log à 200 mo :
+sudo micro /ect/systemd/journal.conf 
+Ajouter "SystemMaxUse=200M"
+sudo systemctl restart systemd-journald #pour redemarrer le service et qu'il prenne en compte les modif 
+
+
+Configurer les rotations mensuelles dans nginx :
+
+sudo micro /etc/logrotate.d/nginx
+Ajouter "/var/log/nginx/*.log {
+    monthly
+    missingok
+    rotate 12
+    compress
+    delaycompress
+    notifempty
+    create 0644 root root
+    sharedscripts
+    postrotate
+        [ -f /var/run/nginx.pid ] && kill -USR1 `cat /var/run/nginx.pid`
+    endscript
+}"
+
+sudo systemctl restart nginx # pour prendre en compte les modifs

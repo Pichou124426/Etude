@@ -1,0 +1,71 @@
+^nono gagne sa partie en 7 tN
+-e 
+Partie commencée à : Lun 24 fév 2025 20:19:22 CET
+
+Joueur               Score de départ Tours pour gagner   
+--------------------------------------------------------
+Le grand vainqueur est : Toù
+Toù                 301             5                   
+--------------------------------------------------------
+Noah                 1               -                   
+Melina               301             -                   
+--------------------------------------------------------
+-e 
+Partie commencée à : Lun 24 fév 2025 20:21:52 CET
+
+Joueur               Score restant   Tours pour gagner   
+--------------------------------------------------------
+Le grand vainqueur est : Melina
+Melina               0               4                   
+--------------------------------------------------------
+Noah                 1               -                   
+--------------------------------------------------------
+-e 
+Partie commencée à : Lun 24 fév 2025 20:27:42 CET
+
+Joueur               Score restant   Tours pour gagner   
+--------------------------------------------------------
+Le grand vainqueur est : NOAH
+NOAH                 0               3                   
+--------------------------------------------------------
+MPEME                121             -                   
+--------------------------------------------------------
+-e 
+Partie commencée à : Lun 24 fév 2025 20:28:45 CET
+
+Joueur               Score restant   Tours pour gagner   
+--------------------------------------------------------
+Le grand vainqueur est : NOAH
+NOAH                 0               2                   
+--------------------------------------------------------
+--------------------------------------------------------
+-e 
+Partie commencée à : Mer 26 fév 2025 11:45:11 CET
+
+Joueur               Score restant   Tours pour gagner   
+--------------------------------------------------------
+Le grand vainqueur est : NONO
+NONO                 0               6                   
+--------------------------------------------------------
+TEST                 1               -                   
+--------------------------------------------------------
+-e 
+Partie commencée à : Mer 26 fév 2025 11:48:56 CET
+
+Joueur               Score restant   Tours pour gagner   
+--------------------------------------------------------
+Le grand vainqueur est : noa
+noa                  0               7                   
+--------------------------------------------------------
+jordan               1               -                   
+--------------------------------------------------------
+-e 
+Partie commencée à : Ven 28 fév 2025 12:21:38 CET
+
+Joueur               Score restant   Tours pour gagner   
+--------------------------------------------------------
+Le grand vainqueur est : GRA
+GRA                  0               14                  
+--------------------------------------------------------
+CUt                  1               -                   
+--------------------------------------------------------
