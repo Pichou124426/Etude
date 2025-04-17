@@ -1,4 +1,4 @@
-int lightPin = A0; // Pin analogique connectée à la photorésistance
+int lightPin = 0; // Pin analogique connectée à la photorésistance
 int latchPin = 11; // Pin connectée à la broche LATCH du 74HC595
 int clockPin = 9;  // Pin connectée à la broche CLOCK du 74HC595
 int dataPin = 12;  // Pin connectée à la broche DATA du 74HC595
