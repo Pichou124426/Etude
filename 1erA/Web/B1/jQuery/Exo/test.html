@@ -1,0 +1,28 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Jquery</title>
+</head>
+<body>
+    <h1>Test Jquery</h1>
+    <button id="btn">Click me</button>
+    <p id="para">Hello World</p>
+
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#para").toogle();
+            });
+        });
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#para").css("background-color", "red");
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+/* Définitions générales pour la grille */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    height: 100px;
+  }
+  
+  /* Styles spécifiques aux éléments de la grille */
+  .header {
+    grid-column: 1 / -1; /* Étend l'en-tête sur toutes les colonnes */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ff0000; /* Bordure rouge de 2 pixels */
+  }
+  
+  .sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 2px dashed #00ff00; /* Bordure verte en pointillés de 2 pixels */
+  }
+  
+  .main {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px dotted #0000ff; /* Bordure bleue en pointillés de 2 pixels */
+  }
+  
+  .footer {
+    grid-column: 1 / -1; /* Étend le pied de page sur toutes les colonnes */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 2px double #ffff00; /* Bordure jaune double de 2 pixels */
+  }
+  

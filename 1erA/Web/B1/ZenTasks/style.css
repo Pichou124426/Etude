@@ -1,0 +1,450 @@
+/* CSS Variables for Colors */
+:root {
+  --primary-color: #2c89f4;
+  --primary-hover: #1a6cd8;
+  --background-color: #f4f7f6;
+  --text-color: #333;
+  --light-text-color: #555;
+  --white: #fff;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+.background {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 6px var(--shadow);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 600;
+  transition: color 0.3s;
+  padding-right: 100px;
+}
+
+nav a:hover {
+  color: var(--primary-color);
+}
+nav h1 {
+  justify-content: center;
+  color: var(--primary-color);
+}
+
+/* Logo */
+.logo {
+  height: 50px;
+  border-radius: 40px;
+  margin-top: 10px;
+}
+
+/* Login Buttons */
+.login {
+  margin-left: auto;
+  margin-right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.login a {
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background 0.3s, color 0.3s;
+}
+
+.login a:first-child {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.login a:first-child:hover {
+  background: var(--primary-hover);
+}
+
+.login a:last-child {
+  background: var(--white);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.login a:last-child:hover {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+/* Container Styling */
+.container {
+  max-width: 800px;
+  margin: 120px auto 20px;
+  padding: 20px;
+  background: var(--white);
+  box-shadow: 0 4px 6px var(--shadow);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 28px;
+  color: var(--primary-color);
+}
+
+.container h2 {
+  font-size: 28px;
+  color: var(--primary-color);
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--light-text-color);
+}
+
+/* Tasks Section */
+.myTasks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.task {
+  background: var(--white);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px var(--shadow);
+  text-align: center;
+  max-width: 300px;
+}
+
+.task h4 {
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+.task p {
+  color: var(--light-text-color);
+  font-size: 14px;
+}
+
+.task a {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.task a:hover {
+  background: var(--primary-hover);
+  color: var(--white);
+}
+
+/* Task Status Section */
+.taskStatus {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: var(--white);
+  box-shadow: 0 4px 6px var(--shadow);
+  border-radius: 10px;
+}
+
+.taskStatus h3 {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.taskCompleted,
+.taskUncompleted {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Statistics Section */
+.static {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: var(--white);
+  box-shadow: 0 4px 6px var(--shadow);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.static p {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.static h3 {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+
+
+/* Form Styling */
+form {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 40px;
+  background: var(--white);
+  box-shadow: 0 4px 6px var(--shadow);
+  border-radius: 10px;
+  text-align: center;
+}
+
+form h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
+
+form label {
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form input[type="submit"] {
+  background: var(--primary-color);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 15px;
+  transition: background 0.3s;
+}
+
+form input[type="submit"]:hover {
+  background: var(--primary-hover);
+}
+
+.username-highlight {
+  color: #2c89f4;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* Navigation Bar */
+  nav {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  nav a {
+    padding-right: 0;
+    margin: 5px 0;
+  }
+
+  .login {
+    flex-direction: column;
+    margin: 10px 0;
+  }
+
+  .login a {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Container */
+  .container {
+    margin: 100px 10px 20px;
+    padding: 15px;
+  }
+
+  /* Tasks Section */
+  .myTasks {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .task {
+    max-width: 100%;
+  }
+
+  /* Task Status Section */
+  .taskStatus {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+
+  .taskCompleted,
+  .taskUncompleted {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Form Styling */
+  form {
+    margin: 20px 10px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Navigation Bar */
+  nav h1 {
+    font-size: 18px;
+  }
+
+  /* Container */
+  .container h1,
+  .container h2 {
+    font-size: 22px;
+  }
+
+  .container p {
+    font-size: 14px;
+  }
+
+  /* Tasks Section */
+  .task h4 {
+    font-size: 16px;
+  }
+
+  .task p {
+    font-size: 12px;
+  }
+
+  /* Form Styling */
+  form h1 {
+    font-size: 20px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 14px;
+  }
+}
+
+
+
+.footer {
+  background: var(--primary-color);
+  color: var(--text-color);
+  padding: 40px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 -4px 10px var(--shadow);
+  
+}
+
+.footer .container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  padding: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+ 
+.footer-section ul {
+  font-size: 14px;
+  color: var(--text-color);
+}
+.footer-section p, 
+.footer-section ul {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+}
+
+.footer-section ul li a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
+.footer-section p a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.footer-section p a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid var(--background-color);
+  padding-top: 15px;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
